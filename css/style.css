@@ -70,21 +70,21 @@ input#volume{
 button#play{
 	width: 70px;
 	height: 70px;
-	background:url() no-repeat;
+	background:url(../images/play.png) no-repeat;
 	float:left;
 }
 
 button#pause{
 	width: 70px;
 	height: 70px;
-	background:url() no-repeat;
+	background:url(../images/pause.png) no-repeat;
 	float:left;
 }
 
 button#stop{
 	width: 70px;
 	height: 70px;
-	background:url() no-repeat;
+	background:url(../images/stop.png) no-repeat;
 	float:left;
 }
 
@@ -116,12 +116,12 @@ button#stop{
 	margin-bottom: 20px;
 	margin-top: 9px;
 	height: 10px;
-	background:url() no-repeat;
+	background:url(../images/progress_bg.png) no-repeat;
 	float:left;
 }
 
 #progress{
-	background:url() no-repeat;float:left;
+	background:url(../images/progress.png) no-repeat;float:left;
 	height:10px;
 	display:inline-block;
 }
