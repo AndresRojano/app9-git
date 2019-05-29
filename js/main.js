@@ -23,7 +23,7 @@ function initAudio(element){
 	$('#audio-player .artist').text(artist);
 	
 	
-	$('#img.cover').attr('src','images/covers/' + cover);
+	$('#img .cover').attr('src','images/covers/' + cover);
 	
 	$('#playlist li').removeClass('active');
 	element.addClass('active');
@@ -43,7 +43,7 @@ $('#play').click(function(){
 $('#pause').click(function(){
 	audio.pause();
 	$('#pause').hide();
-	$('play').show();
+	$('#play').show();
 });
 
 
