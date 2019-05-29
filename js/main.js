@@ -25,7 +25,7 @@ function initAudio(element){
 	
 	$('#img.cover').attr('src','images/covers/' + cover);
 	
-	$('playlist li').removeClass('active');
+	$('#playlist li').removeClass('active');
 	element.addClass('active');
 }
 
@@ -56,7 +56,7 @@ $('#stop').click(function(){
 });
 
 
-$('#playlist li').click(function(){
+$('#playlist li').click(function (){
 	audio.pause();
 	initAudio($(this));
 	$('#play').hide();
