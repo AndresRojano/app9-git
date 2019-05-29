@@ -20,7 +20,7 @@ function initAudio(element){
 	}
 	
 	$('#audio-player .title').text(title);
-	$('"audio-player .artist').text(artist);
+	$('#audio-player .artist').text(artist);
 	
 	
 	$('#img.cover').attr('src','images/covers/' + cover);
